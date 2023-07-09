@@ -26,6 +26,23 @@ body{
     text-decoration: none;
     color: #4d4a4a;
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 14px;    
     line-height: 22px;
+}
+
+.avatar {
+    height: 320px;
+    width: 320px;
+}
+
+
+.footer-image {
+    
+    height: 125px;
+    width: 125px;
+}
+.git-logo {
+    
+    height: 125px;
+    width: 125px;
 }
