@@ -11,33 +11,77 @@
     <title>Bashlovka</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#summary">Summary</a>Summary</li>
-                <li>Skills</li>
-                <li>Code examples</li>
-                <li>Educatoin</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Bashlovka Anatolii</h1>
-        <h3>Frontend Developer</h3>
-        <section class="contact-info" id="contact">
-            <h2>Contact information:</h2>
-            <p><span>Phone:</span>+79818511045</p>
-            <p><span>E-mail:</span>bashlovka245@gmail.com</p>
-            <p><span>Telegram:</span>@Anatolii_Bashlovka</p>
-            <p><span>Discord:</span>tolik245(@tolik245)</p>
-        </section>
-        <section class="summary" id="summary">
-            
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+    <div class="container">
+        <header class="header">
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#contact" class="header-menu-link">Contact</a></li>
+                    <li class="header-menu-item"><a href="#summary" class="header-menu-link">Summary</a></li>
+                    <li class="header-menu-item"><a href="#skills" class="header-menu-link">Skills</a></li>
+                    <li class="header-menu-item"><a href="#code-example" class="header-menu-link">Code examples</a></li>
+                    <li class="header-menu-item"><a href="#education" class="header-menu-link">Educatoin</a></li>
+                    <li class="header-menu-item"><a href="#languages" class="header-menu-link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Bashlovka Anatolii</h1>
+            <h3>Frontend Developer</h3>
+            <section class="contact-info" id="contact">
+                <h2>Contact information:</h2>
+                <p><span>Phone:</span>+79818511045</p>
+                <p><span>E-mail:</span>bashlovka245@gmail.com</p>
+                <p><span>Telegram:</span>@Anatolii_Bashlovka</p>
+                <p><span>Discord:</span>tolik245(@tolik245)</p>
+            </section>
+            <section class="summary" id="summary">
+                <h2>Summary</h2>
+                <p>I am currently working as a manager in a small firm. I actively study javascript in order to become a
+                    developer. I have
+                    basic knowledge of HTML5, CSS3, JavaScript, React, also SQL.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Java Script (basics)</li>
+                    <li>HTML5, CSS3</li>
+                    <li>Git, GitHub</li>
+                    <li>Figma(for web development)</li>
+                    <li>Windows OS, Linux(Ubuntu)</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code-example">
+                <h2>Code examples</h2>
+                <code>
+                        /*
+                        The function that receives the year as input returns the century to which this year belongs
+                        */
+                        <br>
+                        function century(year) <br> {
+                        return Math.ceil(year/100);
+                        }
+                    </code>
+            </section>
+            <section class="education" id="education">
+                <h2>Educatoin</h2>
+                <ul>
+                    <li>CS50 Lectures</li>
+                    <li>HTML Acadamy (free exercises)</li>
+                    <li> <a href="https://code-basics.com/">JS on code-basics.com</a></li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russin</li>
+                    <li>English (A2)</li>
+                </ul>
+        
+            </section>
+        </main>
+        <footer>
+        
+        </footer>
+    </div>
 </body>
 </html>
